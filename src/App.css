@@ -1,42 +1,21 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    --primary-50: #f4effa;
+    --primary-100: #e9dff5;
+    --primary-200: #dcbef0;
+    --primary-300: #c896e6;
+    --primary-400: #b269da;
+    --primary-500: #9942f0;
+    --primary-600: #8c31e0;
+    --primary-700: #7826c2;
+    --primary-800: #6621a3;
+    --primary-900: #551c86;
+    --primary-950: #321051;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
