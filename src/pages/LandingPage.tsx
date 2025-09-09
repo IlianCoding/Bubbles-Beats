@@ -1,12 +1,8 @@
 import {useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import {Navbar} from "../components/NavBar.tsx";
-
 import {HeroSection} from "../components/landingpage/HeroSection.tsx";
 import {EventHighlights} from "../components/landingpage/EventHighlights.tsx";
-import {DJSection} from "../components/landingpage/DjSection.tsx";
-
-
 
 export const LandingPage = () => {
     const navigate = useNavigate();
@@ -26,7 +22,6 @@ export const LandingPage = () => {
                 <div className="px-10 md:px-20 lg:px-40 flex flex-col items-center py-10">
                     <HeroSection />
                     <EventHighlights />
-                    <DJSection />
                 </div>
             </main>
         </div>

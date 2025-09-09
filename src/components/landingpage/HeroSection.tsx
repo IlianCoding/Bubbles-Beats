@@ -3,7 +3,7 @@ import {CountdownBanner} from "./CountdownBanner.tsx";
 import {useNavigate} from "react-router-dom";
 
 const registrationEndDate = new Date('2025-10-24T23:59:59');
-const partyDate = new Date('2025-11-01T20:00:00');
+const partyDate = new Date('2025-11-10T23:59:59');
 
 export const HeroSection = () => {
     const navigate = useNavigate();
